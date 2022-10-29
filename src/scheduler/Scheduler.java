@@ -24,8 +24,11 @@ package scheduler;
  *   variables.
  */
 public class Scheduler {
-
+	enum bob {
+		MONDAY(LinkedList<Events>), TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY;
+	}
+	
     public static void main(String[] args) {
-
+    	
     }
 }
