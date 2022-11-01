@@ -1,21 +1,21 @@
 package scheduler;
 
 public class Event {
-	String name;
+	String day;
 	int time;
-	public Event(int time, String name) {
-		this.name = name;
+	public Event(int time, String day) {
+		this.day = day;
 		this.time = time;
 	}
-	public String getName() {
-		return name;
+	public String getDay() {
+		return day;
 	}
 	
 	public int getTime() {
 		return time;
 	}
-	public void setName(String thing) {
-		name = thing;
+	public void setDay(String thing) {
+		day = thing;
 	}
 	public void setTime(int value) {
 		time = value;
